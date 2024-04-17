@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 5;
+}
+.first {
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+#First_div {
+    display: flex;
+}
+.video1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.angry,.magic,.deli,.chic{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.Partners{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.oldbtn{
+    width: 100px;
+    height: 35px;
+    border: 1px solid ;
+    border-radius: 25px;
+    margin-left: 670px;
+    background-color:#c93102 ;
+}
+#oldmethod,#newmethod{
+    margin-top: 150px;
+}
+.oldcontimg,.newcontimg{
+    width: 600px;
+    height: 500px;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+.newbtn{
+    width: 250px;
+    height: 35px;
+    border: 1px solid  #2e960b;
+    border-radius: 25px;
+    margin-left: 670px;
+    background-color: #2e960b;
+}
+.free{
+    width: 80px;
+    height: 23px;
+    border-radius: 25px;
+    border: 1px solid;
+    margin-top: -22px;
+    margin-left: 145px;
+    background-color: white;
+    font-size: 15px;
+    color:#2e960b;
+    padding-top: 5px;
+}
+.store{
+    margin-left: -90px;
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+}
+#navbar{
+    display: flex;
+    position: fixed;
+    
+}
+.logo{
+    width: 200px;
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.demo_store{
+    color: grey;
+    font-weight: 100;
+    margin-left: 550px;
+    margin-top: 25px;
+}
+.pricing{
+    color: grey;
+    font-weight: 100;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.login{
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #2e960b;
+    background-color: white;
+    color: #2e960b;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.createbtn{
+    width: 150px;
+    height: 45px;
+    background-color: #2e960b;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid ;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .demo_store {
+        margin-left: 150px;
+    }
+    .pricing {
+        margin-left: 10px;
+    }
+    .login,
+    .createbtn {
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
